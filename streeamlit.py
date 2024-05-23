@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open('C:/Users/JOSH/2023_projects/car_price_prediction/random_forest_model.pkl', 'rb'))
+model = pickle.load(open('random_forest_model.pkl', 'rb'))
 
 def main():
     st.title('Car Price Prediction Solution')
